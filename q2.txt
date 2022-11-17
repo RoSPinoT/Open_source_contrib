@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float a,b;
+    printf("enter a :");
+    scanf("%f",&a);
+    printf("enter b :");
+    scanf("%f",&b);
+    printf(" The avg of two no. : (%f + %f)/2 = %f",a,b,(a+b)/2);
+
+    return 0;
+}
+
